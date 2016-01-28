@@ -7,23 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3756A8B58B405BF7A4E02148 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2790B79ECAB28F6F62E361 /* libPods.a */; };
 		F44A69E11C5940920078E597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A69E01C5940920078E597 /* AppDelegate.swift */; };
-		F44A69E31C5940920078E597 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A69E21C5940920078E597 /* ViewController.swift */; };
 		F44A69E61C5940920078E597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44A69E41C5940920078E597 /* Main.storyboard */; };
 		F44A69E91C5940920078E597 /* Nearby_Places.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F44A69E71C5940920078E597 /* Nearby_Places.xcdatamodeld */; };
 		F44A69EB1C5940920078E597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44A69EA1C5940920078E597 /* Assets.xcassets */; };
 		F44A69EE1C5940920078E597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44A69EC1C5940920078E597 /* LaunchScreen.storyboard */; };
+		F44A69F71C594F570078E597 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A69F61C594F570078E597 /* PlacesViewController.swift */; };
+		F44A69FC1C59506A0078E597 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A69FB1C59506A0078E597 /* Place.swift */; };
+		F44A69FE1C5950B90078E597 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A69FD1C5950B90078E597 /* Places.swift */; };
+		F4517EF11C5A83BE001D0C03 /* FoursquareAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4517EF01C5A83BE001D0C03 /* FoursquareAPI.swift */; };
+		F4517EF31C5A8404001D0C03 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4517EF21C5A8404001D0C03 /* Device.swift */; };
+		F4517EF51C5A8B0B001D0C03 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4517EF41C5A8B0B001D0C03 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D37DC5340603A142E5FDEFF6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F407C8B89E4217682BB18D92 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F44A69DD1C5940920078E597 /* Nearby Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nearby Places.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44A69E01C5940920078E597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F44A69E21C5940920078E597 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F44A69E51C5940920078E597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F44A69E81C5940920078E597 /* Nearby_Places.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nearby_Places.xcdatamodel; sourceTree = "<group>"; };
 		F44A69EA1C5940920078E597 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F44A69ED1C5940920078E597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F44A69EF1C5940920078E597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F44A69F61C594F570078E597 /* PlacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlacesViewController.swift; path = Controllers/PlacesViewController.swift; sourceTree = "<group>"; };
+		F44A69FB1C59506A0078E597 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		F44A69FD1C5950B90078E597 /* Places.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		F44A69FF1C5951A50078E597 /* Nearby Places-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Nearby Places-Bridging-Header.h"; path = "Models/Nearby Places-Bridging-Header.h"; sourceTree = "<group>"; };
+		F4517EF01C5A83BE001D0C03 /* FoursquareAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoursquareAPI.swift; sourceTree = "<group>"; };
+		F4517EF21C5A8404001D0C03 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		F4517EF41C5A8B0B001D0C03 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailsViewController.swift; path = Controllers/DetailsViewController.swift; sourceTree = "<group>"; };
+		FB2790B79ECAB28F6F62E361 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +46,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3756A8B58B405BF7A4E02148 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B632ED6982E6B06ED76EEEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB2790B79ECAB28F6F62E361 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D171AD4536000F2012DA8A12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D37DC5340603A142E5FDEFF6 /* Pods.debug.xcconfig */,
+				F407C8B89E4217682BB18D92 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F44A69D41C5940920078E597 = {
 			isa = PBXGroup;
 			children = (
 				F44A69DF1C5940920078E597 /* Nearby Places */,
 				F44A69DE1C5940920078E597 /* Products */,
+				D171AD4536000F2012DA8A12 /* Pods */,
+				1B632ED6982E6B06ED76EEEB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +91,45 @@
 		F44A69DF1C5940920078E597 /* Nearby Places */ = {
 			isa = PBXGroup;
 			children = (
+				F4517EEF1C5A83AC001D0C03 /* Services */,
+				F44A69FA1C59506A0078E597 /* Models */,
+				F44A69F51C594D7C0078E597 /* Controllers */,
 				F44A69E01C5940920078E597 /* AppDelegate.swift */,
-				F44A69E21C5940920078E597 /* ViewController.swift */,
 				F44A69E41C5940920078E597 /* Main.storyboard */,
 				F44A69EA1C5940920078E597 /* Assets.xcassets */,
 				F44A69EC1C5940920078E597 /* LaunchScreen.storyboard */,
 				F44A69EF1C5940920078E597 /* Info.plist */,
 				F44A69E71C5940920078E597 /* Nearby_Places.xcdatamodeld */,
+				F44A69FF1C5951A50078E597 /* Nearby Places-Bridging-Header.h */,
 			);
 			path = "Nearby Places";
+			sourceTree = "<group>";
+		};
+		F44A69F51C594D7C0078E597 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F44A69F61C594F570078E597 /* PlacesViewController.swift */,
+				F4517EF41C5A8B0B001D0C03 /* DetailsViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F44A69FA1C59506A0078E597 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F44A69FB1C59506A0078E597 /* Place.swift */,
+				F44A69FD1C5950B90078E597 /* Places.swift */,
+				F4517EF21C5A8404001D0C03 /* Device.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4517EEF1C5A83AC001D0C03 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F4517EF01C5A83BE001D0C03 /* FoursquareAPI.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F44A69F21C5940920078E597 /* Build configuration list for PBXNativeTarget "Nearby Places" */;
 			buildPhases = (
+				6BC0B8E38307E818337645B9 /* Check Pods Manifest.lock */,
 				F44A69D91C5940920078E597 /* Sources */,
 				F44A69DA1C5940920078E597 /* Frameworks */,
 				F44A69DB1C5940920078E597 /* Resources */,
+				976C061E75AC1AB11E225B16 /* Embed Pods Frameworks */,
+				27CCE6752926CFE9D597B3EF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,14 +202,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27CCE6752926CFE9D597B3EF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BC0B8E38307E818337645B9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		976C061E75AC1AB11E225B16 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F44A69D91C5940920078E597 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F44A69E31C5940920078E597 /* ViewController.swift in Sources */,
+				F44A69FE1C5950B90078E597 /* Places.swift in Sources */,
+				F44A69F71C594F570078E597 /* PlacesViewController.swift in Sources */,
+				F4517EF51C5A8B0B001D0C03 /* DetailsViewController.swift in Sources */,
+				F4517EF11C5A83BE001D0C03 /* FoursquareAPI.swift in Sources */,
 				F44A69E91C5940920078E597 /* Nearby_Places.xcdatamodeld in Sources */,
 				F44A69E11C5940920078E597 /* AppDelegate.swift in Sources */,
+				F4517EF31C5A8404001D0C03 /* Device.swift in Sources */,
+				F44A69FC1C59506A0078E597 /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,23 +371,30 @@
 		};
 		F44A69F31C5940920078E597 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D37DC5340603A142E5FDEFF6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Nearby Places/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.mobi.Nearby-Places";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Nearby Places/Models/Nearby Places-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		F44A69F41C5940920078E597 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F407C8B89E4217682BB18D92 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Nearby Places/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.mobi.Nearby-Places";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Nearby Places/Models/Nearby Places-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -289,6 +417,7 @@
 				F44A69F41C5940920078E597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
